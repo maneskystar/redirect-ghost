@@ -1,0 +1,2 @@
+/archive /new-home 302
+/blog/* /posts/:splat 301

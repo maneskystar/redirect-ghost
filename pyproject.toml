@@ -1,0 +1,10 @@
+[project]
+name = "redirect-ghost"
+version = "0.1.0"
+description = "Simulate redirect rules across Apache, Nginx, and Cloudflare before deployment."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Manesky Star"}]
+
+[project.scripts]
+redirect-ghost = "redirect_ghost:main"
